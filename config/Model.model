@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
-<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="test13" entityName="test13" version="25" name="test13" lastUpdated="2025-01-28T14:45:06.818+02:00" lastUpdatedBy="admin" id="admin:MODEL:test13" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <datalists entityCode="3" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-01-28T14:45:06.812+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.812+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
-        <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
-        <dataFields type="text" fieldCode="101" rawType="java.lang.String" allowNull="true" name="Name" initialized="true" id="Name"/>
-        <dataFields type="text" fieldCode="102" rawType="java.lang.String" allowNull="true" name="Sector" initialized="true" id="Sector"/>
-        <dataFields type="decimal" fieldCode="103" rawType="java.math.BigDecimal" allowNull="true" name="Price" initialized="true" id="Price"/>
-        <dataFields type="decimal" format="0.00" fieldCode="104" rawType="java.math.BigDecimal" allowNull="true" name="Dividend" initialized="true" id="Dividend"/>
-        <dataFields type="decimal" fieldCode="105" rawType="java.math.BigDecimal" allowNull="true" name="EPS" initialized="true" id="EPS"/>
-        <dataFields type="decimal" fieldCode="106" rawType="java.math.BigDecimal" allowNull="true" name="Book Value" initialized="true" id="Book Value"/>
-        <dataFields type="decimal" fieldCode="107" rawType="java.math.BigDecimal" allowNull="true" name="52 week low" initialized="true" id="52 week low"/>
-        <dataFields type="decimal" fieldCode="108" rawType="java.math.BigDecimal" allowNull="true" name="52 week high" initialized="true" id="52 week high"/>
-        <dataFields type="decimal" fieldCode="109" rawType="java.math.BigDecimal" allowNull="true" name="Market Cap" initialized="true" id="Market Cap"/>
-        <dataFields type="text" fieldCode="110" readOnly="true" rawType="java.lang.String" name="sourceName" description="Source name" initialized="true" id="sourceName">
-            <defaultValue source="'Manual Entry'"/>
-        </dataFields>
-        <dataFields type="integer" fieldCode="111" readOnly="true" rawType="java.lang.Long" name="lineNumber" description="Source line number" initialized="true" id="lineNumber">
-            <defaultValue source="id"/>
-        </dataFields>
-    </datalists>
+<ns3:modelConfig xsi:type="ns3:ModelConfig" folder="" pauseCalculations="false" entityCode="1" loadPath="test13clone" entityName="test13clone" version="25" name="test13clone" lastUpdated="2025-01-28T14:45:06.818+02:00" lastUpdatedBy="admin" id="admin:MODEL:test13" xmlns:ns6="http://www.modelshop.com/services/account/types" xmlns:ns5="http://www.modelshop.com/datacore/message/types" xmlns:ns8="http://www.modelshop.com/datacore/generator/types" xmlns:ns7="http://www.modelshop.com/datacore/repository/types" xmlns:ns2="http://www.modelshop.com/datacore/view/types" xmlns:ns4="http://www.modelshop.com/services/model/types" xmlns:ns3="http://www.modelshop.com/model/model/types" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <datalists entityCode="4" entityName="Price Target" version="25" name="Price Target" created="2025-01-28T14:45:06.814+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.814+02:00" lastUpdatedBy="admin" id="Price Target">
         <dataFields type="text" fieldCode="100" rawType="java.lang.String" allowNull="true" name="Symbol" initialized="true" id="Symbol"/>
         <dataFields type="decimal" format="0.00" fieldCode="101" rawType="java.math.BigDecimal" allowNull="true" name="Price Target" initialized="true" id="Price Target"/>
@@ -54,38 +36,12 @@
     </datalists>
     <datalists entityCode="6" entityName="Datalist1" version="31" name="Datalist1" description="" created="2025-01-28T14:51:20.178+02:00" createdBy="admin" lastUpdated="2025-01-28T14:51:20.178+02:00" lastUpdatedBy="admin" id="Datalist1"/>
     <datalists entityCode="7" entityName="Datalist2" version="34" name="Datalist2" description="" created="2025-01-28T14:51:21.855+02:00" createdBy="admin" lastUpdated="2025-01-28T14:51:21.855+02:00" lastUpdatedBy="admin" id="Datalist2"/>
-    <views allColumns="true" default="true" modelView="true" entityName="test13" name="test13" description="Default view for list test13" id="test13"/>
-    <views allColumns="true" default="true" entityName="Stock Fundamental" name="Stock Fundamental" description="Default view for list Stock Fundamental" id="Stock Fundamental"/>
+    <views allColumns="true" default="true" modelView="true" entityName="test13clone" name="test13clone" description="Default view for list test13" id="test13clone"/>
     <views allColumns="true" default="true" entityName="Price Target" name="Price Target" description="Default view for list Price Target" id="Price Target"/>
     <views allColumns="true" default="true" entityName="Sector Outlook" name="Sector Outlook" description="Default view for list Sector Outlook" id="Sector Outlook"/>
     <views allColumns="true" default="true" entityName="Strategy" name="Strategy" description="Default view for list Strategy" id="Strategy"/>
     <views allColumns="true" default="true" entityName="Datalist1" name="Datalist1" description="Default view for list Datalist1" id="Datalist1"/>
     <views allColumns="true" default="true" entityName="Datalist2" name="Datalist2" description="Default view for list Datalist2" id="Datalist2"/>
-    <connectors layoutDetected="true" entityName="Stock Fundamental" version="25" name="Stock Fundamental" created="2025-01-28T14:45:06.813+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.813+02:00" lastUpdatedBy="admin" id="Stock Fundamental">
-        <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
-        <connectorFields columnIndex="1" ignore="false" mapField="Name" type="text" rawType="String" allowNull="true" name="Name" id="Name"/>
-        <connectorFields columnIndex="2" ignore="false" mapField="Sector" type="text" rawType="String" allowNull="true" name="Sector" id="Sector"/>
-        <connectorFields columnIndex="3" ignore="false" mapField="Price" type="decimal" rawType="BigDecimal" allowNull="true" name="Price" id="Price"/>
-        <connectorFields columnIndex="4" ignore="false" mapField="Dividend" type="decimal" format="0.00" rawType="BigDecimal" allowNull="true" name="Dividend" id="Dividend"/>
-        <connectorFields columnIndex="5" ignore="false" mapField="EPS" type="decimal" rawType="BigDecimal" allowNull="true" name="EPS" id="EPS"/>
-        <connectorFields columnIndex="6" ignore="false" mapField="Book Value" type="decimal" rawType="BigDecimal" allowNull="true" name="Book Value" id="Book Value"/>
-        <connectorFields columnIndex="7" ignore="false" mapField="52 week low" type="decimal" rawType="BigDecimal" allowNull="true" name="52 week low" id="52 week low"/>
-        <connectorFields columnIndex="8" ignore="false" mapField="52 week high" type="decimal" rawType="BigDecimal" allowNull="true" name="52 week high" id="52 week high"/>
-        <connectorFields columnIndex="9" ignore="false" mapField="Market Cap" type="decimal" rawType="BigDecimal" allowNull="true" name="Market Cap" id="Market Cap"/>
-        <connectorFields mapField="sourceName" type="text" readOnly="true" rawType="String" name="sourceName" description="Source name" id="sourceName"/>
-        <connectorFields mapField="lineNumber" type="integer" readOnly="true" rawType="Long" name="lineNumber" description="Source line number" id="lineNumber"/>
-        <dataSource connectorUrl="Stock Tutorial.xlsx">
-            <fileSource>
-                <dataSourceRefs>Stock Tutorial.xlsx</dataSourceRefs>
-            </fileSource>
-            <loadFilter/>
-        </dataSource>
-        <mediaConfig connectorMediaType="excel">
-            <excelMedia>
-                <component componentType="excelworksheet" componentId="rId1" componentName="Stock Fundamental" displayName="Stock Fundamental"/>
-            </excelMedia>
-        </mediaConfig>
-    </connectors>
     <connectors layoutDetected="true" entityName="Price Target" version="25" name="Price Target" created="2025-01-28T14:45:06.814+02:00" createdBy="admin" lastUpdated="2025-01-28T14:45:06.814+02:00" lastUpdatedBy="admin" id="Price Target">
         <connectorFields columnIndex="0" ignore="false" mapField="Symbol" type="text" rawType="String" allowNull="true" name="Symbol" id="Symbol"/>
         <connectorFields columnIndex="1" ignore="false" mapField="Price Target" type="decimal" format="0.00" rawType="BigDecimal" allowNull="true" name="Price Target" id="Price Target"/>
